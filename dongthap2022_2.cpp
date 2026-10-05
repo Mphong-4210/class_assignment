@@ -36,7 +36,7 @@ int main() {
         }
     }
 
-    cout << fixed << setprecision(2) << dp[n];
+    cout << fixed << setprecision(2) << dp[n]-1;
 
     return 0;
 }
