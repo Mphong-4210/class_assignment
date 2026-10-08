@@ -37,7 +37,7 @@ int main() {
         while (!st.empty() && a[st.back()] <= a[i])
             st.pop_back();
 
-        int p = n + 1;
+        int p = 2*n + 1;
 
         if (!st.empty())
             p = st.back();
