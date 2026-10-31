@@ -1,6 +1,4 @@
 
-#pragma GCC optimize("O3")
-#pragma GCC target("avx2")
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -47,8 +45,9 @@ void ffopen(string name){
 }
 
 void solve(){
-    
-
+    ll n;
+cin>>n;
+    cout<<n*(n+3*n^2-9)/3*(n+1);
 
 }
 
