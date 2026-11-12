@@ -49,7 +49,7 @@ void ffopen(string name){
 void solve(){
     ll n;
     cin>>n;
-    ll k=(n- 1)/2;    
+    ll k=(n- 1)*n/2;    
     cout<<k*n-k*(k+1);
 }
 
