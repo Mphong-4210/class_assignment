@@ -38,7 +38,7 @@ freopen("DDNN.OUT", "w", stdout);
     }
 
     if (dist[v] == -1) {
-        cout << 0;
+        cout << -1;
         return 0;
     }
 
