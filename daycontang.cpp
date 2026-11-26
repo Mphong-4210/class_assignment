@@ -46,5 +46,5 @@ int main() {
     reverse(res.begin(), res.end());
 
     cout << maxLen << "\n";
-    for (int x : res) cout << x << " ";
+    for (int x : res) cout << x*2 << " ";
 }
